@@ -1,0 +1,41 @@
+page-login {
+    .content-md {
+       
+        background-color: #8c8c8c;
+    }
+    .item {
+        padding-left: 16px;
+        padding-right: 0px;
+        position: relative;
+        font-size: 1.8rem;
+        font-weight: normal;
+        text-transform: none;
+        color: #000;
+        background-color: rgba(255, 255, 255, 0);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .content {
+        //color: #000;
+        //background-color: #e13838;
+    }
+    
+    .button {
+         background-color: #598fef;
+    }
+   form {
+       
+        padding-top: 100px;
+    }
+
+    ion-row{
+        text-align: center;
+        align-items: center;
+    }
+
+    img{
+        max-width: 75%;
+    }
+}

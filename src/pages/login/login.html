@@ -1,0 +1,51 @@
+<!--
+  Generated template for the Login page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<!--
+  Generated template for the Login page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+
+<ion-content padding>
+  <form [formGroup]="registerCredentials" (ngSubmit)="login()">
+    <ion-row>
+      <ion-col>
+      <img src='assets/images/miracle.png' />
+      </ion-col>
+    </ion-row>
+     <h1 style="text-align:center;"> Welcome! </h1>
+     <h3 style="text-align:center;">Log into your account</h3>
+        <ion-item>
+        <ion-label floating color="dark" >Email</ion-label>
+        <ion-input formControlName="user_name" type="email"   ></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label floating color="dark">Password</ion-label>
+        <ion-input type="password" formControlName="password"  ></ion-input>
+      </ion-item>
+    <br>
+      <ion-item no-lines>
+        <button ion-button full round  style="height: 2.8em;background-color:#00bfff;">login</button>
+      </ion-item>
+   
+  </form>
+   
+  </ion-content>
+  <ion-footer>
+    <ion-toolbar color="dark">
+      <ion-title text-center>Miracle's Innovation Labs</ion-title>
+    </ion-toolbar>
+  </ion-footer>
+
+
+
